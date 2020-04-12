@@ -1,5 +1,8 @@
 body{
 background-color:#EAF6F6;
+margin:0;
+margin-left: 20px;
+height:2000px;
 }
 hr{
 background-color:white;
@@ -18,4 +21,133 @@ h2
 h3
 {
   color: #66bfbf;
+}
+#submitBtn
+{
+  background-color: #66bfbf;
+  cursor: pointer;
+  border-radius: 80px;
+  width: 100px;
+  height: 50px;
+  transition: all 0.5s;
+}
+
+#submitBtn:hover {background-color: #007bb5}
+
+#submitBtn:active {
+  background-color: #007bb5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 6px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkgray; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 17px; /* Some padding */
+  border-radius: 80px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 140px;
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}*/
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.github {
+  background: lightslategray;
+  color:#000000;
+}
+.hackerrank
+{
+  background: green;
+  color: white;
+}
+.hackerrankImage
+{
+  bottom: 5x;
+  margin-bottom: 0;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #000000
+}
+.content {
+  margin-left: 75px;
+  font-size: 15px;
+}
+
+.faa {
+  font-size: 1.2em;
+  line-height: 2em;
+  background: white;
+  border-radius: 2em;
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  text-align: center;
+  color: #C43832;
+}
+.phone-number {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #C43832;
+  border-radius: 34px;
+  padding: 1em;
+  position: relative;
+  padding-left: 3.5em;
+  color: white;
+  display: inline-block;
+  width: 135px;
+}
+.phone-number--below {
+  display: block;
+  text-align: left;
+  padding-left: 3.5em;
+}
+.phone-number:hover {
+  background: #1d71b8;
 }
